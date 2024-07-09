@@ -1,0 +1,82 @@
+.WallpaperHolder {
+  display: flex;
+  justify-content: center;
+}
+
+.MainHolder {
+  margin: auto;
+  min-width: 640px;
+  max-width: 1000px;
+  /* background-color: rgb(255, 208, 247); */
+}
+
+.DoveWallpaper {
+  width: 100%;
+}
+
+.shopTitle {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 40px;
+}
+.products {
+  /* width: 100%; */
+  /* height: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  place-items: center;
+}
+
+.product {
+  /* border-radius: 15px; */
+  /* background-color: red; */
+  margin-left: 16px;
+  margin-right: 16px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.display {
+  display: none;
+}
+
+.product img {
+  width: 300px;
+}
+
+.product .description {
+  text-align: center;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}

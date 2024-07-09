@@ -1,0 +1,69 @@
+.MainHolder {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Left {
+  font-size: 12px;
+  width: 100%;
+  padding-top: 32px;
+  padding-left: 32px;
+  font-family: "Helvetica";
+  color: rgb(112, 112, 112);
+}
+.Information {
+  padding-left: 32px;
+  width: 100%;
+  font-size: 14px;
+  padding-top: 32px;
+  font-family: "Helvetica";
+  color: rgb(112, 112, 112);
+}
+.Information p {
+  width: fit-content;
+  padding-bottom: 16px;
+}
+.Information p:hover {
+  cursor: pointer;
+}
+
+.NewsletterHolder {
+  width: 100%;
+  font-size: 14px;
+  padding-top: 32px;
+  font-family: "Helvetica";
+}
+
+.NewsletterHeading {
+  font-weight: 700;
+  color: rgb(48, 48, 48);
+}
+
+.NewsLetterDescription {
+  color: rgb(112, 112, 112);
+}
+
+.EmailInput {
+  width: 100px;
+  height: 16px;
+  /* border: none; */
+  transition: 0.2s;
+}
+
+.EmailInput:hover {
+  width: 200px;
+}
+
+.SignUpBtn {
+  border-style: none;
+  height: 22px;
+  transition: 0.2s;
+}
+
+.SignUpBtn:hover {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  cursor: pointer;
+}

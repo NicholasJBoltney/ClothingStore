@@ -1,0 +1,29 @@
+.product {
+  /* border-radius: 15px; */
+  /* background-color: red; */
+  margin-left: 16px;
+  margin-right: 16px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.productName {
+  color: rgb(48, 48, 48);
+  font-weight: 500;
+}
+
+.productPrice {
+  color: rgb(112, 112, 112);
+  font-weight: 400;
+  font-size: 11px;
+}

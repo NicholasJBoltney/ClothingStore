@@ -1,0 +1,36 @@
+.Main {
+  /* height: 1000px; */
+}
+
+.Heading {
+  font-size: 40px;
+}
+
+.CollectionName {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.MainCollectionsHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+  /* background-color: red; */
+}
+
+.MainCollectionsHolder a {
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  font-size: 20px;
+  font-family: "Helvetica";
+}
+
+.CollectionImage {
+  width: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* border-radius: 4px; */
+  box-shadow: 0px 5px 5px rgb(207, 207, 207);
+}

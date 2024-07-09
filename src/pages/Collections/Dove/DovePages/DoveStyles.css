@@ -1,0 +1,168 @@
+.BackButton {
+  position: relative;
+  top: 0px;
+  right: 50px;
+}
+
+.MainHolder {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  /* background-color: blue; */
+}
+
+.Holder {
+  /* background-color: red; */
+  /* box-shadow: 0px 5px 20px rgb(207, 207, 207); */
+  border-radius: 32px;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 32px;
+  width: 100%;
+}
+
+.ExtraImagesHolder {
+  /* background-color: red; */
+  min-width: 200px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8px;
+  margin-top: 3px;
+}
+
+.ProductImage {
+  width: 100%;
+  z-index: -1;
+  transition: 0.2s;
+}
+
+.ExtraProductImage {
+  /* z-index: -1; */
+  width: 100%;
+  transition: 0.2s;
+  /* opacity: 0.2; */
+}
+
+.ProductImage:hover,
+.ExtraProductImage:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  /* z-index: -1; */
+}
+
+.RightPanel {
+  border-radius: 0px 16px 16px 0px;
+}
+
+.productName {
+  color: rgb(48, 48, 48);
+}
+
+.productPrice {
+  color: rgb(112, 112, 112);
+}
+
+.SizesText {
+  color: rgb(48, 48, 48);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.SizesHolder {
+  display: flex;
+}
+
+.SizesHolder p {
+  margin-right: 20px;
+  color: rgb(112, 112, 112);
+  transition: 0.2s;
+}
+
+.SizesHolder p:hover {
+  cursor: pointer;
+  color: rgb(48, 48, 48);
+  font-weight: 700;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.AddToCartButtonHolder {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.countHandler {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+  border: 1px solid rgb(226, 226, 226);
+  /* background-color: red; */
+}
+
+.countHandler button {
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  border: none;
+  transition: 0.2s;
+}
+
+.countHandler button:hover {
+  cursor: pointer;
+  /* color: white;
+  background-color: rgb(48, 48, 48); */
+}
+
+.countHandler input {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  color: rgb(48, 48, 48);
+  width: 10%;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.AddToCartBtn {
+  background-color: transparent;
+  color: rgb(48, 48, 48);
+  border: 1px solid rgb(48, 48, 48);
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* border-radius: 4px; */
+  transition: 0.2s;
+}
+
+.AddToCartBtn:hover {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  cursor: pointer;
+}
+
+.Description {
+  color: rgb(48, 48, 48);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.DescriptionText {
+  color: rgb(112, 112, 112);
+}
+
+.Delivery {
+  color: rgb(48, 48, 48);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.DeliveryText {
+  color: rgb(112, 112, 112);
+}
