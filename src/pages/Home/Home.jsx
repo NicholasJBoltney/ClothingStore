@@ -6,11 +6,12 @@ import "./Home.css";
 import { Footer } from "../../components/Footer";
 import { Line } from "../../components/Line/Line";
 import { Navbar } from "../../components/navbar";
+import { useRef } from "react";
 
-export const Home = () => {
+export const Home = (props) => {
   return (
-    <div className="Main">
-      {/* <Navbar /> */}
+    <div className={props.Visibility}>
+      <Navbar />
       {/* <div className="Heading">Collections</div> */}
 
       <div className="MainCollectionsHolder">

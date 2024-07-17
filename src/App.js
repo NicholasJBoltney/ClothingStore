@@ -30,16 +30,21 @@ import { Dress22Page } from "./pages/Collections/Puffin/PuffinPages/Dress22Page"
 import { Puffin } from "./pages/Collections/Puffin/Puffin";
 import { HummingBird } from "./pages/Collections/HummingBird/HummingBird";
 import { ShopContextProvider } from "./context/shop-context";
+
 import "./App.css";
 
 function App() {
+  let homeVisibility = "Main";
   return (
     <div className="MainBody">
       <ShopContextProvider>
         <Router>
-          <Navbar />
-          {/* <Home /> */}
+          {/* <Navbar />
+          <Home Visibility={homeVisibility} /> */}
+
           <Routes>
+            <Route path="" element={<Home />} />
+
             <Route path="/Home" element={<Home />} />
             <Route path="shop" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />

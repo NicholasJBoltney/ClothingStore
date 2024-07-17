@@ -1,4 +1,5 @@
 import "./PuffinStyles.css";
+import { Navbar } from "../../../../components/navbar";
 import React, { useContext } from "react";
 import { PRODUCTS } from "../PuffinProducts";
 import { Link } from "react-router-dom";
@@ -21,6 +22,7 @@ export const Dress17Page = () => {
 
   return (
     <div className="MainHolder">
+      <Navbar />
       <div className="Holder">
         <div className="ProductImageHolder">
           <img src={productImage} className="ProductImage" />{" "}

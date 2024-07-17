@@ -1,5 +1,10 @@
 .Main {
   /* height: 1000px; */
+  display: block;
+}
+.homeVisibility {
+  display: none;
+  background-color: red;
 }
 
 .Heading {

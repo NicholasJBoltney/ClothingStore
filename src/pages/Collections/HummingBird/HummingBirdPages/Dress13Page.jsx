@@ -1,4 +1,5 @@
 import "./HummingBirdStyles.css";
+import { Navbar } from "../../../../components/navbar";
 
 import React, { useContext } from "react";
 import { PRODUCTS } from "../HummingBirdProducts";
@@ -22,6 +23,7 @@ export const Dress13Page = () => {
 
   return (
     <div className="MainHolder">
+      <Navbar />
       <div className="Holder">
         <div className="ProductImageHolder">
           <img src={productImage} className="ProductImage" />{" "}

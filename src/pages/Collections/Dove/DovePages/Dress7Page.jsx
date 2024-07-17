@@ -1,3 +1,4 @@
+import { Navbar } from "../../../../components/navbar";
 import "./DoveStyles.css";
 import React, { useContext } from "react";
 import { PRODUCTS } from "../doveProducts";
@@ -22,6 +23,8 @@ export const Dress7Page = () => {
 
   return (
     <div className="MainHolder">
+      <Navbar />
+
       <div className="Holder">
         <div className="ProductImageHolder">
           <img src={productImage} className="ProductImage" />{" "}
