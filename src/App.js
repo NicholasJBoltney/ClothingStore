@@ -43,7 +43,7 @@ function App() {
           <Home Visibility={homeVisibility} /> */}
 
           <Routes>
-            <Route path="ClothingStore" element={<Home />} />
+            <Route path="/" element={<Home />} />
 
             <Route path="/Home" element={<Home />} />
             <Route path="shop" element={<Shop />} />
