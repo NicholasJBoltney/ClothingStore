@@ -22,7 +22,7 @@ export const Dress3Page = () => {
 
   return (
     <div className="MainHolder">
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className="Holder">
         <div className="ProductImageHolder">

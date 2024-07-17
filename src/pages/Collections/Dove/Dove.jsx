@@ -15,7 +15,7 @@ export const Dove = () => {
   return (
     <div>
       <div className="MainHolder">
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="shop">
           {/* <div className="shopTitle"><h1>Dove Collection</h1></div> */}
           {/* <div className="WallpaperHolder">

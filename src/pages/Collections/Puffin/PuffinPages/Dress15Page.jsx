@@ -23,7 +23,7 @@ export const Dress15Page = () => {
 
   return (
     <div className="MainHolder">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="Holder">
         <div className="ProductImageHolder">
           <img src={productImage} className="ProductImage" />{" "}

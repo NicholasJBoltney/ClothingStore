@@ -11,7 +11,6 @@ import { useRef } from "react";
 export const Home = () => {
   return (
     <div className="Main">
-      <Navbar />
       {/* <div className="Heading">Collections</div> */}
 
       <div className="MainCollectionsHolder">
@@ -34,8 +33,7 @@ export const Home = () => {
           </div>
         </Link>
       </div>
-      <Line />
-      <Footer />
+      {/* <Line /> */}
     </div>
   );
 };

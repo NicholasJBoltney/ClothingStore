@@ -30,6 +30,7 @@ import { Dress22Page } from "./pages/Collections/Puffin/PuffinPages/Dress22Page"
 import { Puffin } from "./pages/Collections/Puffin/Puffin";
 import { HummingBird } from "./pages/Collections/HummingBird/HummingBird";
 import { ShopContextProvider } from "./context/shop-context";
+import { Footer } from "./components/Footer";
 
 import "./App.css";
 
@@ -40,9 +41,9 @@ function App() {
       <ShopContextProvider>
         <Router>
           <Navbar />
-
+          <Home />
           <Routes>
-            {/* <Route path="/" element={<Home />} /> */}
+            <Route path="/" element={<Home />} />
 
             <Route path="/Home" element={<Home />} />
             <Route path="shop" element={<Shop />} />
@@ -94,6 +95,7 @@ function App() {
             <Route path="/puffin/puffinProduct7" element={<Dress21Page />} />
             <Route path="/puffin/puffinProduct8" element={<Dress22Page />} />
           </Routes>
+          {/* <Footer /> */}
         </Router>
       </ShopContextProvider>
     </div>

@@ -15,7 +15,7 @@ export const Cart = () => {
 
   return (
     <div className="cart">
-      <Navbar />
+      {/* <Navbar /> */}
       <div>
         <h1>Your Cart Items</h1>
       </div>

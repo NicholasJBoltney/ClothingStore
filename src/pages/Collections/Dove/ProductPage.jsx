@@ -8,7 +8,7 @@ import "../../shop/shop.css";
 export const ProductPage = () => {
   return (
     <div className="shop">
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className="shopTitle">
         <h1>Dove Collection</h1>
