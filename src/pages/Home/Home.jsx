@@ -8,9 +8,9 @@ import { Line } from "../../components/Line/Line";
 import { Navbar } from "../../components/navbar";
 import { useRef } from "react";
 
-export const Home = (props) => {
+export const Home = () => {
   return (
-    <div className={props.Visibility}>
+    <div className="Main">
       <Navbar />
       {/* <div className="Heading">Collections</div> */}
 
