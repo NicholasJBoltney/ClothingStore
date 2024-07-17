@@ -5,10 +5,12 @@ import PuffinCollectionImage from "../../assets/products/Puffin/Dress1/Balloon P
 import "./Home.css";
 import { Footer } from "../../components/Footer";
 import { Line } from "../../components/Line/Line";
+import { Navbar } from "../../components/navbar";
 
 export const Home = () => {
   return (
     <div className="Main">
+      {/* <Navbar /> */}
       {/* <div className="Heading">Collections</div> */}
 
       <div className="MainCollectionsHolder">
