@@ -39,11 +39,10 @@ function App() {
     <div className="MainBody">
       <ShopContextProvider>
         <Router>
-          {/* <Navbar />
-          <Home Visibility={homeVisibility} /> */}
+          <Navbar />
 
           <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
 
             <Route path="/Home" element={<Home />} />
             <Route path="shop" element={<Shop />} />
